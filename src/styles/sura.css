@@ -1,0 +1,42 @@
+.sura-section {
+  min-height: 100vh;
+  padding: 200px 0;
+}
+.sura-section .container .sura-card {
+  width: 100%;
+  background-color: var(--dark);
+  padding: 20px;
+  border-radius: 5px;
+}
+.sura-section .container .sura-card h1 {
+  text-align: center;
+  color: var(--main);
+  font-family: "Amiri", "Cairo", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  padding: 30px;
+}
+.sura-section .container .sura-card .info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px 0;
+  margin-bottom: 30px;
+  border-bottom: 1px solid var(--sec-white);
+}
+.sura-section .container .sura-card .info p {
+  color: var(--x-light-grey);
+  font-size: 15px;
+  margin: 0 10px;
+}
+.sura-section .container .sura-card .info p span {
+  color: var(--sec-white);
+}
+.sura-section .container .sura-card .text {
+  font-family: "Amiri", "Cairo", sans-serif;
+  font-size: 20px;
+  color: var(--white);
+  line-height: 2;
+  text-align: center;
+}

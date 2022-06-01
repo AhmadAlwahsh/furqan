@@ -1,0 +1,92 @@
+.text-section {
+  min-height: 100vh;
+  padding-top: 160px;
+}
+.text-section .container {
+  min-height: 100vh;
+}
+
+.text-section .container .summary {
+  color: var(--sec-white);
+  font-size: 15px;
+  margin: 20px 0;
+  text-align: center;
+  opacity: 0.5;
+  border-bottom: 1px solid var(--sec-white);
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+.text-section .container .random-aya-box {
+  /* display: flex; */
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: var(--dark);
+  padding: 20px;
+  border-radius: 5px;
+  width: 100%;
+  margin: 50px 0;
+}
+.text-section .container .random-aya-box h2 {
+  text-align: center;
+  margin: 10px 0;
+  color: var(--main);
+  font-size: 25px;
+}
+.text-section .container .random-aya-box p {
+  color: var(--white);
+  font-family: "Amiri", "Cairo", sans-serif;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 20px;
+  line-height: 2;
+}
+.aya-braket {
+  color: var(--main);
+  padding: 0 3px;
+}
+.aya-btn {
+  margin: 3px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: var(--light-grey);
+  color: var(--main);
+  cursor: pointer;
+}
+.text-section .container .random-aya-box .btns button:hover {
+  opacity: 0.7;
+}
+.text-section .container .random-aya-box .btns button:active {
+  box-shadow: 0 0 10px var(--main);
+}
+.text-section .container .random-aya-box .aya-info {
+  float:left;
+  color: var(--x-light-grey);
+  font-size: 15px;
+}
+.text-section .container .suras-box {
+  background-color: var(--dark);
+  padding: 20px;
+  border-radius: 5px;
+  width: 100%;
+  margin: 50px 0;
+}
+.text-section .container .suras-box h2 {
+  text-align: center;
+  margin: 10px 0;
+  color: var(--main);
+  font-size: 25px;
+}
+.text-section .container .suras-box .suras .sura {
+  height: 100px !important;
+  width: 100px !important;
+  font-size: 10px !important;
+  margin: 5px !important;
+  background-color: var(--grey) !important;
+}
+.text-section .container .suras-box .suras .sura:hover {
+  opacity: 0.7;
+}

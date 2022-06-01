@@ -1,0 +1,61 @@
+.qaree-section {
+  min-height: 100vh;
+  padding-bottom: 200px;
+}
+.qaree-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.qaree-grid .text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 2px solid var(--sec);
+  padding-bottom: 10px;
+  padding-top: 200px;
+}
+.qaree-grid .text-box h1{
+  font-size: 30px;
+  color: var(--main);
+}
+.qaree-grid .text-box p{
+  color: var(--white);
+}
+.suras{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+.suras .sura {
+  /* padding-left: 30px;
+  margin: 15px 0; */
+  background-color: var(--sec);
+  color: var(--white);
+  cursor: pointer;
+  height: 130px;
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+  text-align: center;
+  font-size: 13px;
+  margin: 10px;
+}
+.sura .en{
+  color: var(--main);
+}
+.suras .sura h3 .ar {
+  font-family: 'Amiri';
+  font-weight: 100;
+}
+
+.suras .sura:hover {
+  background-color: var(--light-grey);
+}

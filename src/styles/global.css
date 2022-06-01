@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  transition: all 0.3s;
+}
+a,
+button,
+.sura,
+img {
+  user-select: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Cairo", sans-serif;
+  background-color: var(--grey);
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+::-webkit-scrollbar-track {
+  background-color: var(--sec);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--main);
+}
+::-webkit-scrollbar {
+  width: 6px;
+  z-index: 9;
+}
+::-webkit-scrollbar-corner {
+  color: var(--light-grey);
+}
+
+.up-btn{
+  position: fixed;
+  background-color: var(--dark);
+  width: 35px;
+  height: 35px;
+  margin: 30px;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  color: var(--white);
+  font-size: 9px;
+  border: 3px groove var(--main);
+  cursor: pointer;
+  font-family: 'Cairo' , sans-serif;
+  transform: translateX(100vw);
+  z-index: 99;
+}
+.up-btn:hover{
+  background-color: var(--light-grey);
+}
+.sp-head {
+  background-size: 100%;
+  background-image: linear-gradient(300deg, var(--main) , var(--dark));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  text-align: center;
+}
+ .bio {
+  color: var(--sec-white);
+  font-size: 17px;
+  margin: 20px 0;
+  text-align: center;
+}

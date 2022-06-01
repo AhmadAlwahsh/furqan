@@ -1,0 +1,95 @@
+.sura-tafsir {
+  min-height: 100vh;
+  padding-top: 160px ;
+}
+
+.sura-tafsir .container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.sura-tafsir .container .aya-card {
+  padding: 30px;
+}
+.sura-tafsir .container .aya-btn {
+  float: right;
+  text-align: center;
+}
+.sura-tafsir .container .aya-card .aya-text {
+  color: var(--white);
+  font-family: "Amiri", sans-serif;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.sura-tafsir .container .aya-card .aya-info {
+  float: left;
+  color: var(--x-light-grey);
+  font-size: 15px;
+}
+
+.sura-tafsir .container .tafsir-card {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.sura-tafsir .container .tafsir-card .tafsir-btns button {
+  border: none;
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: var(--sec);
+  color: var(--x-light-grey);
+  margin: 10px;
+  font-family: "Cairo", sans-serif;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.sura-tafsir .container .tafsir-card .tafsir-btns button:active {
+  color: var(--dark);
+  background-color: var(--main);
+}
+.sura-tafsir .container .tafsir-card .tafsir-btns button.active {
+  background-color: var(--sec);
+  color: var(--main);
+  border: 1px solid var(--main);
+  position: relative;
+}
+
+.sura-tafsir .container .tafsir-card .tafsir-btns button.active::before {
+  content: "";
+  position: absolute;
+  background-color: var(--sec);
+  width: 5px;
+  height: 60px;
+  bottom: -61px;
+  left: 50%;
+}
+
+@media (max-width:768px) {
+  .sura-tafsir .container .tafsir-card .tafsir-btns button.active::before{
+    display: none;
+  }
+}
+
+.sura-tafsir .container .tafsir-card .tafsir-text {
+  color: var(--sec-white);
+  background-color: var(--sec);
+  padding: 60px 30px;
+  border-radius: 5px;
+  margin-top: 50px;
+  width: 100%;
+  position: relative;
+  line-height: 2;
+}
+
+.sura-tafsir .container .tafsir-card .tafsir-text .aya-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 20px;
+}

@@ -1,0 +1,227 @@
+.landing {
+  min-height: 100vh;
+  /* background-image: url(../images/back.jpg); */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  background-position: bottom;
+  filter: brightness(0.3);
+  background-image: url(../images/back.jpeg);
+}
+.landing .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.landing .container img {
+  width: 300px;
+  z-index: 1;
+}
+.landing .container .text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.landing .container h2 {
+  font-family: "Amiri", "Cairo", sans-serif;
+  font-size: 40px;
+  color: var(--white);
+  margin: 50px 0;
+  text-align: center;
+  z-index: 2;
+}
+.landing .container h2 span {
+  color: var(--main);
+}
+.landing .container .summary {
+  font-size: 20px;
+  color: var(--white);
+  font-weight: 900;
+  position: relative;
+  z-index: 2;
+}
+
+.fadl {
+  min-height: 60vh;
+  padding: 50px 0;
+  background-color: var(--sec);
+  border-top: 5px groove var(--main);
+  border-bottom: 5px groove var(--main);
+}
+.fadl .container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  min-height: 60vh;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.fadl .container .fadl-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--sec);
+  border: 5px double var(--light-grey);
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  margin: 10px;
+  font-family: "Amiri", "Cairo", sans-serif;
+}
+.fadl .container .fadl-card h3 {
+  color: var(--main);
+}
+
+.quran-fadl-title {
+  font-family: "Amiri", "Cairo", sans-serif;
+  padding: 20px;
+  color: var(--white) !important;
+  font-size: 15px;
+  text-align: center;
+  line-height: 2;
+}
+.quran-fadl-title span {
+  color: var(--main);
+}
+.quran {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.libs{
+  min-height: 100vh;
+  padding: 50px 0;
+}
+.libs .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 100vh;
+  flex-wrap: wrap;
+}
+
+.libs .container .lib-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--sec);
+  padding: 30px;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 100%;
+  margin: 30px 0;
+}
+.libs .container .lib-card h3{
+  color: var(--main);
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.libs .container .lib-card p{
+  color: var(--white);
+  font-size: 17px;
+  text-align: center;
+}
+.libs .container .lib-card a{
+  color: var(--white);
+  font-size: 17px;
+  text-decoration: wavy;
+  background-color: var(--grey);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 15px;
+}
+.libs .container .lib-card a:hover {
+  opacity: 0.7;
+}
+.libs .container .lib-card a i{
+  margin: 0 5px;
+}
+
+.whoIam{
+  padding: 100px 0;
+}
+.whoIam .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whoIam .container .who-box{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background-color: var(--dark);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.whoIam .container .who-box img{
+  width: 200px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.whoIam .container .who-box h3{
+  font-size: 25px;
+}
+
+.whoIam .container .who-box h3 .en {
+  color: var(--main);
+  display: block;
+}
+
+.whoIam .container .who-box h3 .ar {
+  color: var(--white);
+  display: block;
+}
+
+.whoIam .container .who-box p {
+  color: var(--sec-white);
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+.whoIam .container .who-box .icon-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.whoIam .container .who-box a{
+  color: var(--main);
+  background-color: var(--sec);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.whoIam .container .who-box a:hover{
+  transform: rotate(360deg);
+  opacity: 0.7;
+}
+
+.whoIam .container .who-box a i{
+  font-size: 13px;
+}

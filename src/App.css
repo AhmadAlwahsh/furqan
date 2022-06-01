@@ -1,0 +1,14 @@
+@import url(./styles/var.css);
+@import url(./styles/global.css);
+@import url(./styles/header.css);
+@import url(./styles/home.css);
+@import url(./styles/audio.css);
+@import url(./styles/qaree.css);
+@import url(./styles/progress.css);
+@import url(./styles/text.css);
+@import url(./styles/sura.css);
+@import url(./styles/tafsir.css);
+@import url(./styles/sura-tafsir.css);
+@import url(./styles/footer.css);
+@import url(./styles/loading.css);
+@import url(./styles/not-found.css);
